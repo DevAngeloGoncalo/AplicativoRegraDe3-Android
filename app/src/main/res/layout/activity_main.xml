@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:background="#FFFFFF"
+    tools:context=".AberturaActivity">
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/img_view2"
+        android:layout_width="116dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/autoria" />
+
+    <TextView
+        android:id="@+id/txt_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Vamos resolver problemas onde dos quatro valores, nós conhecemos três :D"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edt_se"
+        android:inputType="number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Se" />
+
+    <EditText
+        android:id="@+id/edt_entao"
+        android:inputType="number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="Então" />
+
+    <EditText
+        android:id="@+id/edt_equivale"
+        android:inputType="number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="200dp"
+        android:hint="Equivale a" />
+
+    <EditText
+        android:id="@+id/edt_resultado"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="250dp"
+        android:editable="false"
+        android:text="X"
+        android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/edt_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp" />
+
+    <TextView
+        android:id="@+id/txt_tit_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="30dp"
+        android:text="Inversamente proporcional"
+        android:textColor="#000"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:text="Calcular" />
+
+    <Button
+        android:id="@+id/btn_limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:text="Limpar" />
+
+    <Button
+        android:id="@+id/btn_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="340dp"
+        android:text="Sair" />
+
+</RelativeLayout>
